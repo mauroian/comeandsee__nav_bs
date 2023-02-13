@@ -1,0 +1,82 @@
+* {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+}
+
+.topbar {
+  background-color: #FCCC00;
+}
+
+.bg-nav {
+  background-color: #FEF4C9;
+  padding: 10px 0;
+}
+
+.bg-gray {
+  background-color: #AFAFAF;
+}
+
+.bg-red {
+  background-color: #9F0101;
+}
+
+.bg-white_lig {
+  background-color: #FFFBFB;
+}
+
+.login {
+  width: 113px;
+  height: 47px;
+  border-radius: 5px !important;
+}
+
+.navbar-light .navbar-nav .nav-link.font {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navigation_top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation_top ul {
+  justify-content: space-between;
+  width: auto;
+}
+.navigation_top ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.navigation_top ul li a:hover {
+  color: #000000;
+  opacity: 0.5;
+}
+
+.social a {
+  text-decoration: none;
+}
+.social a:first-child {
+  margin-right: 5px;
+}
+.social a i {
+  background-color: #9F0101;
+  border-radius: 100%;
+  height: 30px;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.social a:hover i {
+  background-color: transparent;
+  color: #9F0101;
+}
+.social.social_mob {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
