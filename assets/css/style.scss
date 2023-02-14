@@ -157,14 +157,12 @@ $topbar: #FCCC00;
 }
 
 
-.img.logo {
+img.logo {
     max-width: 70px;
 }
 
 @media only screen and (max-width: 900px) {
-    .navbar {
-        overflow: scroll;
-    }
+   
 
     .dropdown-menu {
         .dropdown-submenu {
