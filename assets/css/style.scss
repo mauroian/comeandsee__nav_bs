@@ -53,7 +53,7 @@ $topbar: #FCCC00;
 }
 
 
-  
+
 
 
 
@@ -82,7 +82,7 @@ $topbar: #FCCC00;
 
     }
 
-   
+
 }
 
 .social {
@@ -104,14 +104,75 @@ $topbar: #FCCC00;
             color: #fff;
             transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
         }
-        &:hover{
-            i{
+
+        &:hover {
+            i {
                 background-color: transparent;
                 color: $dark-red;
             }
         }
     }
-    &.social_mob{
+
+    &.social_mob {
         margin-top: 30px;
+    }
+}
+
+
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.bagde_mobile {
+
+    top: 50%;
+    left: 25%;
+
+}
+
+
+.img.logo {
+    max-width: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        overflow: scroll;
+    }
+
+    .dropdown-menu {
+        .dropdown-submenu {
+            display: none;
+            position: absolute;
+            left: 0%;
+            top: 0px;
+            width: 100%;
+        }
     }
 }
