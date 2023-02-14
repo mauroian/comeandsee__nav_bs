@@ -162,7 +162,9 @@ $topbar: #FCCC00;
 }
 
 @media only screen and (max-width: 900px) {
-   
+    .navbar {
+        overflow: scroll;
+    }
 
     .dropdown-menu {
         .dropdown-submenu {
